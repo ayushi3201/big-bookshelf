@@ -1,0 +1,15 @@
+.header-content{
+    min-height: 90vh;
+    background: linear-gradient(rgba(78, 13, 100, 0.3), rgba(58, 12, 45, 0.902)), url("https://i.guim.co.uk/img/media/421a25d8531ca22b8f52d9a3228a7eb30995b613/0_745_2560_1534/master/2560.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=910b9babc0f62153ac7dc6fbb4744abb") center/cover no-repeat;
+    flex-direction: column;
+    margin-top: -3%;
+}
+.header-title{
+    font-size: 5rem;
+}
+.header-text{
+    margin-top: -1.8rem;
+    margin-bottom: 2.8rem;
+    opacity: 0.8;
+    max-width: 770px;
+}

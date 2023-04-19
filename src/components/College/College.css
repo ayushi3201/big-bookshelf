@@ -1,0 +1,30 @@
+.college{
+    padding: 3rem 0;
+}
+.college-content{
+    gap: 5rem;
+}
+.college-title{
+    margin: 1rem 0;
+}
+.college-img img{
+    max-width: 700px;
+    height: 300px;
+    border: 1px solid;
+}
+.college-text p{
+    margin: 1.8rem 0;
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 800px){
+    .college-content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .college-title{
+        margin-top: 0;
+    }
+    .college-img img{
+        margin-left: 0;
+    }
+}
